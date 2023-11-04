@@ -1,0 +1,90 @@
+ /* tag selector */
+p{
+    color: blue;
+}
+
+ /* class based selector */
+.para1{
+  color:red;  
+}
+
+/* id based selector */
+
+#para1-uniq1{
+    color:yellow;  
+}
+
+/* universal selector */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    border:1px solid blue;
+}
+input[placeholder*="eagle"]{
+    border:1px solid blue;
+}
+
+a[href]{
+    color:white
+}
+
+a[href^="https://"] {
+    color: green;
+}
+
+a[href^="https://"][target="_blank"]{
+    
+}
+
+img[src$=".png"] {
+    border: 2px solid red;
+}
+
+p[lang|="en"] {
+    font-weight: bold;
+}
+
+/* descendant selector */
+
+/* ul li{
+    background-color: burlywood;
+    margin:10px;
+} */
+
+/* child selector */
+
+ul > li{
+    background-color: burlywood;
+    margin:10px;
+}
+
+/* adjascent sibling selector */
+
+section + p{
+    background-color: aqua;
+}
+
+/* general  sibling selector */
+section ~ p{
+    background-color: rgb(9, 255, 0);
+}
+
+/* Pseudo-Classes: based on element actions enabled by browsers */
+
+a:hover{
+    background-color: black;
+    color:white;
+}
+
+/* Pseudo-Elements: helps you to target the content of tags and apply style */
+
+p::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
+

@@ -1,0 +1,12 @@
+@import url('./style1.css');
+
+
+h4{
+    color:rgb(100, 42, 0);
+    background-color: rgb(238, 183, 144); 
+ }
+
+ h5{
+    color:rgb(93, 0, 100);
+    background-color: rgb(221, 144, 238); 
+ }
